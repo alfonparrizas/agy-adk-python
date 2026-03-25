@@ -6,7 +6,18 @@ Welcome to your new ADK agent project! This repository is configured with the es
 
 1.  **Fork this repository**: Use this as a starting point for your new agent.
 2.  **Configure MCP Server**: (Recommended) Follow the [MCP Setup Guide](file:///home/fon_fon_altostrat_com/agy/agy-adk-python/.agents/workflows/setup-mcp-server.md) to connect your AI assistant to the latest ADK documentation.
-3.  **Install dependencies**:
+3.  **Create a Virtual Environment**:
+    We strongly recommend using `uv` for environment management:
+    ```bash
+    uv venv
+    source .venv/bin/activate
+    ```
+    Alternatively, using standard `venv`:
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate
+    ```
+4.  **Install dependencies**:
     ```bash
     pip install -e .
     ```

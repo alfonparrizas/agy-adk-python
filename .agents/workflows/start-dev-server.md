@@ -6,7 +6,13 @@ description: Starting the local runtime for development.
 
 Run your agent locally to test interactions and debug.
 
-1.  **Ensure dependencies are installed**:
+1.  **Ensure virtual environment is active**:
+    Your environment must be active to ensure consistent dependencies.
+    ```bash
+    source .venv/bin/activate
+    ```
+
+2.  **Ensure dependencies are installed**:
     ```bash
     pip install -e .
     ```
