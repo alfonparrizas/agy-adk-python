@@ -1,0 +1,33 @@
+# ADK Agent Template (Python)
+
+Welcome to your new ADK agent project! This repository is configured with the essential skills, knowledge, and workflows to help you build, test, and deploy sophisticated AI agents using the [Agent Development Kit (ADK)](https://google.github.io/adk-docs/).
+
+## Getting Started
+
+1.  **Fork this repository**: Use this as a starting point for your new agent.
+2.  **Install dependencies**:
+    ```bash
+    pip install -e .
+    ```
+3.  **Explore Skills**: The `.agents/skills` directory contains specialized skills for development, deployment, and observability.
+4.  **Follow Workflows**: Check `.agents/workflows` for step-by-step guides on common tasks.
+
+## Project Structure
+
+- `.agents/`: Contains agent-specific configuration, skills, knowledge, and workflows.
+  - `skills/`: Development skills for your AI coding assistant.
+  - `knowledge/`: Best practices and project-specific information.
+  - `workflows/`: Standardized procedures for common tasks.
+- `pyproject.toml`: Project metadata and dependencies.
+- `README.md`: This file.
+
+## Recommended Tools
+
+- **AI Coding Assistant**: Use Antigravity, Gemini CLI, or Cursor with the ADK skills for the best experience.
+- **MCP Server**: Connect your tool to the [ADK documentation MCP server](https://google.github.io/adk-docs/tutorials/coding-with-ai/#adk-docs-mcp-server).
+
+## Resources
+
+- [ADK Documentation](https://google.github.io/adk-docs/)
+- [ADK Python Reference](https://google.github.io/adk-docs/api-reference/python/)
+- [Coding with AI Tutorial](https://google.github.io/adk-docs/tutorials/coding-with-ai/)
