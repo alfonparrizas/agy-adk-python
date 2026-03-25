@@ -26,6 +26,8 @@ Welcome to your new ADK agent project! This repository is configured with the es
 
 ## Project Structure
 
+- `.github/`: CI/CD workflows for GitHub Actions (if configured).
+- `GEMINI.md`: Coding Agent Guide for AI assistants like Antigravity, Gemini, or Cursor.
 - `.agents/`: Contains agent-specific configuration, skills, knowledge, and workflows.
   - `skills/`: Development skills for your AI coding assistant.
   - `knowledge/`: Best practices and project-specific information.
@@ -35,7 +37,7 @@ Welcome to your new ADK agent project! This repository is configured with the es
 
 ## Recommended Tools
 
-- **AI Coding Assistant**: Use Antigravity, Gemini CLI, or Cursor with the ADK skills for the best experience.
+- **AI Coding Assistant**: Use Antigravity, Gemini CLI, or Cursor with the ADK skills for the best experience. Refer to [GEMINI.md](file:///home/fon_fon_altostrat_com/agy/agy-adk-python/GEMINI.md) for detailed AI coding guidelines.
 - **MCP Server**: Connect your tool to the [ADK documentation MCP server](https://google.github.io/adk-docs/tutorials/coding-with-ai/#adk-docs-mcp-server).
 
 ## Resources
